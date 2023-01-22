@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat';
+    
+}
+#title{
+    background-color:#FAAB78;
+    color: #fff;
+    
+
+}
+.title-img{
+    margin:5%;
+    position: absolute;
+    right: 10%;
+    top:8%;
+    /* right:23%; */
+}
+h1 {  font-family: 'Montserrat';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+.container-fluid{
+    padding: 3% 15%;
+    height:100%;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size:3rem;
+    font-weight: bold;
+    line-height:1.5;
+}
+
+/* navbar */
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat-Light"
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+.steps{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin:2% 30% 2% 40%;
+}
+.left-icon{
+    
+    float:left ;
+}
+.right-icon{
+    float:right;
+}
+.step{
+    margin:2%;
+    padding:8%;
+    background-color: #FFDCA9;
+    border-radius: 5%;
+}
+.step:hover{
+    background-color: #FAAB78;
+}
+.auth-title{
+    margin: 3% 4%;
+
+    /* font-family: 'Montserrat';  
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900; */
+}
+#partner{
+    /* justify-content: center; */
+    /* text-align: center; */
+    background-color: #FAAB78;
+    
+}
+.carousel-item{
+    margin:20px 30%;
+    
+    width:33%;
+    height:30%;
+}
+.partners-img{
+    max-height:100%;
+    max-width:100%;
+}
+
+.accordion-item{
+    margin:2px auto;
+    width:60%;
+}
+.accordion{
+    padding:5%;
+    padding-top: 2%;
+    justify-content: center;
+}
+.accordion:hover{
+    background-color: #FAAB78;
+}
+.faq{
+    background-color:#FAAB78;
+}
+.faq-title{
+    display: inline;
+    margin:0px 45% 2px;
+
+
+}

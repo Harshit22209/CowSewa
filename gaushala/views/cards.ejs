@@ -1,0 +1,20 @@
+<%- include('header') -%>
+
+<div class="title-image">
+    <img class="fodder-image" src=<%=titleImg %> alt="">
+</div>
+<% for(let i=0;i<gaushalas.length;i+=3) {%>
+    
+<div class="row">
+    <%for(let j=i;j<i+3 && j<gaushalas.length ;j++){ %>
+    <div class="col-3">
+      <div class="card">
+        <img src=<%=gaushalas[j].img %> alt="">
+        <h3><%=gaushalas[j].name %></h3>
+        <button class="btn btn-dark">Donate</button>
+      </div>
+    </div>
+    <% } %>
+</div>
+<% } %>
+<%- include('footer') -%>

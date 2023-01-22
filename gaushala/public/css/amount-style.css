@@ -1,0 +1,22 @@
+body{
+    background-color: #EFF5F5;
+}
+.row{
+    margin-left: 13%;
+    margin-bottom: 2%;
+}
+h3{
+    display:inline-block;
+    margin-left:3%;
+}
+.col-3{
+    border-radius: 5%;
+}
+a{
+    text-decoration:none ;
+    color: white;
+    text-decoration-line: none;
+}
+a:hover{
+    color:white;
+}
