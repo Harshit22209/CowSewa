@@ -3,7 +3,7 @@ const bodyParser=require("body-parser");
 const request=require("request");
 const { default: mongoose, Schema } = require("mongoose");
 
-mongoose.connect("mongodb+srv://admin-harshit:ha2744@cluster0.4rsqkc5.mongodb.net/cowsewaDB");
+mongoose.connect("mongodb+srv://admin-harshit:<Password>@cluster0.4rsqkc5.mongodb.net/cowsewaDB");
 mongoose.set('strictQuery', true);
 const app=express();
 app.use(express.static("public"));
